@@ -26,7 +26,10 @@ nav {
   border-radius: 0.1rem;
   color: white;
 }
-
+nav a{
+  text-decoration: none;
+  color: white;
+}
 .grid-logo {
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 5px;
@@ -131,7 +134,7 @@ section p {
 
 .promo-section {
   display: grid;
-  grid-template-columns: repeat(4, 12em);
+  grid-template-columns: repeat(4, auto);
   background-color: rgb(129, 133, 129);
   color: white;
   margin-left: 12rem;
@@ -139,34 +142,88 @@ section p {
 }
 
 .iphone-5s {
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  
+  background-image: url("./images/iphone5s.jpg");
+  background-position: center;
+
   font-size: 20px;
   text-align: center;
   height: 10rem;
 }
 
 .iphone-5c {
+  background-image: url("./images/iphone5c.jpg");
+  background-position: center;
 
-    border: 1px solid rgba(0, 0, 0, 0.8);
   font-size: 20px;
   text-align: center;
   height: 10rem;
 }
 
-.birhtday {
+.birthday {
+  background-image: url("./images/birthday.jpg");
+  background-position: center;
   
-  
-    border: 1px solid rgba(0, 0, 0, 0.8);
   font-size: 20px;
   text-align: center;
   height: 10rem;
 }
 
 .supplier {
-    border: 1px solid rgba(0, 0, 0, 0.8);
- 
+  background-image: url("./images/supplier_responsibility.jpg");
+
   font-size: 20px;
   text-align: center;
   height: 10rem;
+  background-position: center;
+}
+
+footer{
+  display: grid;
+  grid-template-columns: auto auto;
+ 
+  margin-left: 12rem;
+  margin-right: 12.7rem;
+  color: #000;
+
+}
+
+footer a{
+  text-decoration: none;
+}
+
+.p-grid{
+  font-size: 10px;
+  padding: 2px;
+}
+.list-grid{
+  display: flex;
+  font-size: 10px;
+}
+
+.list-grid ul{
+  display: flex;
+  list-style: none;
+  
+  
+ 
+}
+
+.list-grid ul li{
+  padding: 2px;
+  border-right: 1px solid grey;
+  
+  
+ 
+}
+
+.last-footer{
+  display: flex;
+  font-size: 10px;
+  
+
+}
+.last-footer p{
+ padding: 5px;
+  border-right: 1px solid grey;
+
 }
