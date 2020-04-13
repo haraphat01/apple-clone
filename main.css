@@ -12,26 +12,28 @@ header {
 
   background-position-y: -250px;
   background-size: cover;
-  height: 32rem;
-  margin: 0px 2rem 0px 12rem;
-  border: 2px solid rgb(153, 153, 153);
+  height: 100%;
+  margin-left: 12rem;
+  margin-right: 12.2rem;
+  border: 1px solid rgb(153, 153, 153);
 }
 
 nav {
   display: grid;
-  grid-template-columns: repeat(9, 6em);
+  grid-template-columns: repeat(9, 1fr);
   background-color: rgb(129, 133, 129);
   background-image: linear-gradient(#818581, #666a66);
   margin: 4rem 2rem 0 2rem;
   border-radius: 0.1rem;
   color: white;
+  border-radius: 10px;
 }
-nav a{
+nav a {
   text-decoration: none;
   color: white;
 }
 .grid-logo {
-  border: 1px solid rgba(0, 0, 0, 0.8);
+  border-right: 1px solid rgba(0, 0, 0, 0.8);
   padding: 5px;
   font-size: 20px;
   text-align: center;
@@ -39,7 +41,7 @@ nav a{
 }
 
 .grid-store {
-  border: 1px solid rgba(0, 0, 0, 0.8);
+  border-right: 1px solid rgba(0, 0, 0, 0.8);
   font-size: 20px;
   text-align: center;
   height: 2rem;
@@ -47,42 +49,42 @@ nav a{
 }
 
 .grid-mac {
-  border: 1px solid rgba(0, 0, 0, 0.8);
+  border-right: 1px solid rgba(0, 0, 0, 0.8);
   font-size: 20px;
   text-align: center;
   height: 2rem;
   padding: 5px;
 }
 .grid-ipod {
-  border: 1px solid rgba(0, 0, 0, 0.8);
+  border-right: 1px solid rgba(0, 0, 0, 0.8);
   padding: 5px;
   font-size: 20px;
   text-align: center;
   height: 2rem;
 }
 .grid-iphone {
-  border: 1px solid rgba(0, 0, 0, 0.8);
+  border-right: 1px solid rgba(0, 0, 0, 0.8);
   font-size: 20px;
   text-align: center;
   height: 2rem;
   padding: 5px;
 }
 .grid-ipad {
-  border: 1px solid rgba(0, 0, 0, 0.8);
+  border-right: 1px solid rgba(0, 0, 0, 0.8);
   padding: 5px;
   font-size: 20px;
   text-align: center;
   height: 2rem;
 }
 .grid-itunes {
-  border: 1px solid rgba(0, 0, 0, 0.8);
+  border-right: 1px solid rgba(0, 0, 0, 0.8);
   padding: 5px;
   font-size: 20px;
   text-align: center;
   height: 2rem;
 }
 .grid-support {
-  border: 1px solid rgba(0, 0, 0, 0.8);
+  border-right: 1px solid rgba(0, 0, 0, 0.8);
   font-size: 20px;
   text-align: center;
   height: 2rem;
@@ -90,23 +92,21 @@ nav a{
 }
 
 .grid-search {
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  background: none;
+  font-size: 20px;
+  text-align: center;
+  height: 2rem;
+  padding: 5px;
   text-align: center;
   position: absolute;
-
-  height: 2rem;
-
   transition: 0.5s;
 }
 
 input,
 textarea {
-  margin-top: 10px;
+  margin-top: 5px;
   background-color: rgb(129, 133, 129);
-  width: 70px;
+  width: 60px;
   border-radius: 12px;
-
   height: 15px;
   padding: 2px 10px 1px 10px;
 }
@@ -114,9 +114,9 @@ textarea {
 .fa-search {
   color: white;
   font-size: 20px;
-  left: 5px;
+  left: 10px;
   position: absolute;
-  top: 10px;
+  top: 11px;
 }
 
 section {
@@ -134,96 +134,77 @@ section p {
 
 .promo-section {
   display: grid;
-  grid-template-columns: repeat(4, auto);
-  background-color: rgb(129, 133, 129);
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 12rem;
   color: white;
-  margin-left: 12rem;
-  margin-right: 12.7rem;
+
+  border: 1px solid rgb(153, 153, 153);
 }
 
 .iphone-5s {
   background-image: url("./images/iphone5s.jpg");
   background-position: center;
-
-  font-size: 20px;
-  text-align: center;
-  height: 10rem;
 }
 
 .iphone-5c {
   background-image: url("./images/iphone5c.jpg");
   background-position: center;
-
-  font-size: 20px;
-  text-align: center;
-  height: 10rem;
+  height: 12rem;
 }
 
 .birthday {
   background-image: url("./images/birthday.jpg");
   background-position: center;
-  
-  font-size: 20px;
+  width: inherit;
   text-align: center;
-  height: 10rem;
 }
 
 .supplier {
   background-image: url("./images/supplier_responsibility.jpg");
 
-  font-size: 20px;
   text-align: center;
-  height: 10rem;
+  width: inherit;
   background-position: center;
 }
 
-footer{
+footer {
   display: grid;
   grid-template-columns: auto auto;
- 
+  border: 1px solid rgb(153, 153, 153);
   margin-left: 12rem;
-  margin-right: 12.7rem;
+  margin-right: 12.9rem;
   color: #000;
-
 }
 
-footer a{
+footer a {
   text-decoration: none;
+  color: rgb(79, 184, 237);
 }
 
-.p-grid{
+.p-grid {
   font-size: 10px;
   padding: 2px;
 }
-.list-grid{
+.list-grid {
   display: flex;
   font-size: 10px;
 }
 
-.list-grid ul{
+.list-grid ul {
   display: flex;
   list-style: none;
-  
-  
- 
 }
 
-.list-grid ul li{
+.list-grid ul li {
   padding: 2px;
   border-right: 1px solid grey;
-  
-  
- 
 }
 
-.last-footer{
+.last-footer {
   display: flex;
   font-size: 10px;
-  
-
 }
-.last-footer p{
- padding: 5px;
+.last-footer p {
+  padding: 5px;
   border-right: 1px solid grey;
-
 }
