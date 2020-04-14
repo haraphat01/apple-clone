@@ -10,7 +10,6 @@ header {
   background: url("./images/background.jpg") no-repeat;
   background-position-y: -600px;
   background-size: 100%;
-  
 }
 
 nav {
@@ -18,8 +17,7 @@ nav {
   grid-template-columns: repeat(9, 1fr);
   background-color: rgb(129, 133, 129);
   background-image: linear-gradient(#818581, #666a66);
-  margin: 0rem 2rem 0 2rem;
-  
+  margin: 0rem 2rem 0rem 2rem;
   color: white;
   border-radius: 10px;
 }
@@ -91,13 +89,11 @@ nav a {
   text-align: center;
   height: 2rem;
   padding: 5px;
-  text-align: center;
   position: relative;
   transition: 0.5s;
 }
 
-input,
-textarea {
+input, textarea {
   margin-top: 5px;
   background-color: rgb(129, 133, 129);
   width: 70px;
@@ -211,7 +207,6 @@ footer a {
 
 .list-grid ul li {
   padding: 2px;
-  
 }
 
 .last-footer {
@@ -220,5 +215,4 @@ footer a {
 }
 .last-footer p {
   padding: 5px;
-  
 }
