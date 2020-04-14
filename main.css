@@ -143,6 +143,10 @@ footer a {
   text-decoration: none;
   color: rgb(79, 184, 237);
 }
+.last-footer a{
+  text-decoration: none;
+  color: rgb(79, 184, 237);
+}
 
 .p-anchor a {
   text-decoration: none;
@@ -208,13 +212,13 @@ footer {
 }
 
 .p-grid {
-  font-size: 10px;
+  font-size: 12px;
   padding: 2px;
 }
 
 .list-grid {
   display: flex;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .list-grid ul {
@@ -227,10 +231,11 @@ footer {
 }
 
 .last-footer {
-  display: flex;
-  font-size: 10px;
+  
+  font-size: 12px;
 }
 
 .last-footer p {
+  margin-left: 12rem;
   padding: 5px;
 }
