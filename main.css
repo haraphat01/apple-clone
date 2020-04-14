@@ -139,8 +139,7 @@ section p {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   margin-top: 12rem;
-  color: white;
-
+  color:white;
   border: 1px solid rgb(153, 153, 153);
 }
 
@@ -170,17 +169,15 @@ section p {
 .supplier {
   background-image: url("./images/supplier_responsibility.jpg");
   background-size: 100% 100%;
-
-  text-align: center;
-  width: inherit;
   background-position: center;
+  width: inherit;
+  text-align: center;
   height: 12rem;
 }
 
 footer {
   display: grid;
   grid-template-columns: auto auto;
-
   margin-left: 12rem;
   margin-right: 12.9rem;
   color: #000;
