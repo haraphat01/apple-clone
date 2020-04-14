@@ -103,7 +103,8 @@ nav a {
   transition: 0.5s;
 }
 
-input, textarea {
+input, 
+textarea {
   margin-top: 5px;
   background-color: rgb(129, 133, 129);
   width: 70px;
@@ -129,6 +130,7 @@ section h2 {
   font-size: 50px;
   font-weight: normal;
 }
+
 section p {
   line-height: 30px;
 }
@@ -201,12 +203,11 @@ footer {
   color: #000;
 }
 
-
-
 .p-grid {
   font-size: 10px;
   padding: 2px;
 }
+
 .list-grid {
   display: flex;
   font-size: 10px;
@@ -225,6 +226,7 @@ footer {
   display: flex;
   font-size: 10px;
 }
+
 .last-footer p {
   padding: 5px;
 }
