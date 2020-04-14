@@ -143,7 +143,8 @@ footer a {
   text-decoration: none;
   color: rgb(79, 184, 237);
 }
-.last-footer a{
+
+.last-footer a {
   text-decoration: none;
   color: rgb(79, 184, 237);
 }
@@ -231,7 +232,6 @@ footer {
 }
 
 .last-footer {
-  
   font-size: 12px;
 }
 
